@@ -1,0 +1,82 @@
+head
+{
+    font-size: small;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-align: border-box;
+   font-size: 13px;
+}
+.head-left a:hover, .head-right a:hover
+{
+    text-decoration: underline;
+}
+.head-left a
+{
+    display: inline-block; 
+    padding: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 13px;
+    font-style: normal;
+
+}
+
+
+.head-right
+{
+    float: right;
+}
+.head-right a
+{
+    
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+.Sign_button
+{
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style:solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-family: arial,sans-serif;
+    white-space: nowrap;
+    font-size: 13px;
+
+}
+
+.head-left :hover, .head-right
+{
+
+}
+
+.logo-img img
+{
+    padding-top: 109px;
+    font-size: small;
+    color: #222;
+}
+.search-box input {
+    height: 40px;
+    width:444px;
+}
+<div class="gb_h gb_i">

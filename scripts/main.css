@@ -75,11 +75,21 @@ body
     display: inline-block;
 }
 
-.logo-img img
+.main
+{
+    padding-bottom: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo-img 
 {
     padding-top: 109px;
     font-size: small;
     color: #222;
+    margin-top: 47px;
 }
 .search-box input {
     height: 40px;

@@ -7,36 +7,41 @@ body
 {
     margin: 0;
     padding: 0;
-    box-align: border-box;
    font-size: 13px;
 }
 .head-left a:hover, .head-right a:hover
 {
+    opacity: .85;
     text-decoration: underline;
 }
-.head-left a
-{
-    display: inline-block; 
-    padding: 15px;
-    color: #000;
-    opacity: 0.75;
-    text-decoration: none;
-    font-size: 15px;
-    font-style: normal;
 
-}
 
 .head-left
 {
-    padding-right:15px;
-    float:left;
+    font-family: arial,sans-serif;
+
+    top: 16px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+
 }
+.head-left a
+{
+    display: inline-block;
+    padding-left: 15px;   
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+
+  }
+
 
 .head-right
 {
-    margin-right:20px;
-    padding-top:15px;
+    margin-right: 30px;
+    padding-top: 15px;
     float: right;
+    top: 16px;
 }
 .head-right a
 {
@@ -48,38 +53,26 @@ body
     font-family: arial,sans-serif;
 }
 
-.Sign_button
-{
-    cursor: default;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style:solid;
-    text-decoration-color: currentColor;
-    text-decoration-thickness: auto;
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    border: 1px solid #4285f4;
-    font-weight: bold;
-    outline: none;
-    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
-    display: inline-block;
-    line-height: 28px;
-    padding: 0 12px;
-    border-radius: 2px;
-    font-family: arial,sans-serif;
-    white-space: nowrap;
-    font-size: 13px;
-
+.head-right .gb_D {
+    background-image: url("../images/apps.png");
+    background-position: -132px -38px;
+     background-size: 100%;
 }
-
-.gb_c
+.head-right .gb_c
 {
     color:#fff;
+    margin: 1px;
 }
-
-
-.head-left :hover, .head-right
+.Sign_button
 {
-
+    
+    border: 1px solid #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    line-height: 28px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 0px 12px;
+    display: inline-block;
 }
 
 .logo-img img
@@ -92,4 +85,3 @@ body
     height: 40px;
     width:444px;
 }
-<div class="gb_h gb_i">

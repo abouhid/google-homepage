@@ -58,7 +58,7 @@ body
     background-position: -132px -38px;
      background-size: 100%;
 }
-.head-right .gb_c
+.head-right .gb_ee
 {
     color:#fff;
     margin: 1px;
@@ -77,11 +77,21 @@ body
 
 .logo-img img
 {
-    padding-top: 109px;
+    padding-top: 156px;
+    padding-left: 544px;
     font-size: small;
     color: #222;
 }
+
+.boarder{
+padding-top: 24px;
+}
 .search-box input {
-    height: 40px;
-    width:444px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 41px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
 }

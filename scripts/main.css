@@ -39,25 +39,25 @@ body
 .head-right
 {
     margin-right: 30px;
-    padding-top: 15px;
     float: right;
-    top: 16px;
+    margin-top: 15px;
 }
 .head-right a
 {
     margin-right: 15px;
-    margin: 10px;
+    margin: 9px;
     color: #000;
     text-decoration: none;
     font-size: 13px;
     font-family: arial,sans-serif;
 }
 
-.head-right .gb_D {
-    background-image: url("../images/apps.png");
-    background-position: -132px -38px;
-     background-size: 100%;
-}
+.head-right .grid{
+    height:23px;
+    position:relative;
+    bottom:-6px;
+  }
+
 .head-right .gb_ee
 {
     color:#fff;
@@ -83,7 +83,7 @@ body
     color: #222;
 }
 
-.boarder{
+.border{
 padding-top: 24px;
 }
 .search-box input {

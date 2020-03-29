@@ -106,7 +106,7 @@ body
     padding-left: 20px;
     
   }
-  .voice,.glass{
+  .voice,.focus{
     height: 20px;
     position: relative;
     top: 4px;
@@ -142,3 +142,42 @@ body
     border:1px solid #4885ed;
     padding: 9px 19px;
   }
+
+.footer-links
+{
+    bottom: 0;
+font-size: 10pt;
+height: 40px;
+position: fixed;
+width: 100%;
+}
+.fbar
+{
+    background: #f2f2f2;
+line-height: 40px;
+min-width: 980px;
+border-top: 1px solid #e4e4e4;
+
+}
+.footer-text a
+{
+    font-family: arial,sans-serif;
+    margin-left: 19px;
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+}
+.footer-text a:hover
+{   
+     text-decoration: underline;
+}
+.footer-left a
+{
+    float: left;
+    padding-left:10px;
+}
+    
+.footer-text .footer-right 
+{
+   padding-left: 1120px;
+}
